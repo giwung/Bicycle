@@ -27,8 +27,7 @@ ext {
 
     // App dependencies
     supportLibraryVersion = '25.3.1'
-    daggerVersion = ''
-
+    daggerVersion = '2.9'
 }
 
 
