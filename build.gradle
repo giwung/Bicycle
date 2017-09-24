@@ -18,6 +18,20 @@ allprojects {
     }
 }
 
+ext {
+    // Sdk and tools
+    minSdkVersion = 16
+    targetSdkVersion = 25
+    compileSdkVersion = 25
+    buildToolsVersion = '25.0.0'
+
+    // App dependencies
+    supportLibraryVersion = '25.3.1'
+    daggerVersion = ''
+
+}
+
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
